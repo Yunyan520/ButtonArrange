@@ -15,6 +15,8 @@
 		614F5BF11F14D82100A6E752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614F5BEF1F14D82100A6E752 /* LaunchScreen.storyboard */; };
 		614F5BFC1F14D82100A6E752 /* ButtonArrangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F5BFB1F14D82100A6E752 /* ButtonArrangeTests.m */; };
 		614F5C071F14D82100A6E752 /* ButtonArrangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F5C061F14D82100A6E752 /* ButtonArrangeUITests.m */; };
+		614F5C161F14DA4D00A6E752 /* ButtonCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F5C151F14DA4D00A6E752 /* ButtonCellTableViewCell.m */; };
+		614F5C191F14DBA600A6E752 /* ButtonIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F5C181F14DBA600A6E752 /* ButtonIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		614F5C021F14D82100A6E752 /* ButtonArrangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonArrangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		614F5C061F14D82100A6E752 /* ButtonArrangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonArrangeUITests.m; sourceTree = "<group>"; };
 		614F5C081F14D82100A6E752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614F5C141F14DA4D00A6E752 /* ButtonCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCellTableViewCell.h; sourceTree = "<group>"; };
+		614F5C151F14DA4D00A6E752 /* ButtonCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCellTableViewCell.m; sourceTree = "<group>"; };
+		614F5C171F14DBA600A6E752 /* ButtonIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonIView.h; sourceTree = "<group>"; };
+		614F5C181F14DBA600A6E752 /* ButtonIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				614F5BE51F14D82100A6E752 /* AppDelegate.m */,
 				614F5BE71F14D82100A6E752 /* ViewController.h */,
 				614F5BE81F14D82100A6E752 /* ViewController.m */,
+				614F5C141F14DA4D00A6E752 /* ButtonCellTableViewCell.h */,
+				614F5C151F14DA4D00A6E752 /* ButtonCellTableViewCell.m */,
+				614F5C171F14DBA600A6E752 /* ButtonIView.h */,
+				614F5C181F14DBA600A6E752 /* ButtonIView.m */,
 				614F5BEA1F14D82100A6E752 /* Main.storyboard */,
 				614F5BED1F14D82100A6E752 /* Assets.xcassets */,
 				614F5BEF1F14D82100A6E752 /* LaunchScreen.storyboard */,
@@ -207,6 +217,7 @@
 				TargetAttributes = {
 					614F5BDD1F14D82100A6E752 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QP99DRZ3CS;
 						ProvisioningStyle = Automatic;
 					};
 					614F5BF61F14D82100A6E752 = {
@@ -276,6 +287,8 @@
 				614F5BE91F14D82100A6E752 /* ViewController.m in Sources */,
 				614F5BE61F14D82100A6E752 /* AppDelegate.m in Sources */,
 				614F5BE31F14D82100A6E752 /* main.m in Sources */,
+				614F5C161F14DA4D00A6E752 /* ButtonCellTableViewCell.m in Sources */,
+				614F5C191F14DBA600A6E752 /* ButtonIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +439,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QP99DRZ3CS;
 				INFOPLIST_FILE = ButtonArrange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.ButtonArrange";
@@ -437,6 +452,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QP99DRZ3CS;
 				INFOPLIST_FILE = ButtonArrange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.ButtonArrange";
@@ -509,6 +526,7 @@
 				614F5C0D1F14D82100A6E752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		614F5C0E1F14D82100A6E752 /* Build configuration list for PBXNativeTarget "ButtonArrangeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +535,7 @@
 				614F5C101F14D82100A6E752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		614F5C111F14D82100A6E752 /* Build configuration list for PBXNativeTarget "ButtonArrangeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +544,7 @@
 				614F5C131F14D82100A6E752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
