@@ -19,10 +19,10 @@
 }
 - (void)configUI
 {
-    int buttonCount = 8;
+    int buttonCount = 15;
     self.contentView.backgroundColor = [UIColor greenColor];
     ButtonIView *view = [ButtonIView sharedManager];
-    [view configMutibleButton:buttonCount horizontalMaxCount:5 buttonSize:CGSizeMake(10, 10) viewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 100) contentView:self.contentView callback:^(NSArray *arr) {
+    [view configMutibleButton:buttonCount horizontalMaxCount:5 buttonSize:CGSizeMake(50, 10) viewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 100) contentView:self.contentView callback:^(NSArray *arr) {
         for (UIButton *button in arr)
         {
             [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];

@@ -1,1 +1,2 @@
 # ButtonArrange
+此demo以cell中创建多个button为例，根据button总数量、每行按钮数量和button大小来自动计算间距
